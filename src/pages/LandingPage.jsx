@@ -109,7 +109,7 @@ const LandingPage = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link" href="/login">DASHBOARD</NavLink>
+                <NavLink className="nav-link" to="/login">DASHBOARD</NavLink>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#about">ABOUT</a>
@@ -124,7 +124,7 @@ const LandingPage = () => {
                 <a className="nav-link" href="#contact">CONTACT</a>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" href="/search">TRACEBILITY</NavLink>
+                <NavLink className="nav-link" to="/search">TRACEBILITY</NavLink>
               </li>
             </ul>
           </div>
