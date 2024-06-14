@@ -207,7 +207,7 @@ const LandingPage = () => {
           <div className="text-center">
             <h3>Ingin men - tracing produk CPO anda?</h3>
             <p>Silahkan meng - klik dibawah ini</p>
-            <NavLink className="cta-btn scrollto" style={{ textDecoration: 'none' }}  to="">Trace CPO Anda!</NavLink>
+            <NavLink className="cta-btn scrollto" style={{ textDecoration: 'none' }}  to="/search">Trace CPO Anda!</NavLink>
           </div>
       </div>
      </section>
