@@ -44,10 +44,13 @@ const Search = () => {
     };
 
     return (
-        <div className="container">
+        <div className="container mt-5">
         <div className="row justify-content-center">
-            <div className="col-md-auto">
-                <h2>Search</h2>
+            <div className="col-md-8">
+                <div className="d-flex justify-content-between align-items-center mb-3">
+                    <h2>Search</h2>
+                    <Link to="/" className="btn btn-secondary">Back</Link>
+                </div>
                 <form onSubmit={handleSearchSubmit}>
                     <div className="form-group">
                         <input
