@@ -18,7 +18,7 @@ const DataLahanPetani = () => {
         if (user?.uuid) {
             const fetchData = async () => {
                 try {
-                    const response = await axios.get(`/api/users/${user.uuid}`);
+                    const response = await axios.get(`https://c-greenproject.org:8000/users/${user.uuid}`);
                     console.log(response.data);
                     setUserAuth(response.data);
                 } catch (error) {
@@ -33,7 +33,7 @@ const DataLahanPetani = () => {
         if (user?.uuid) {
             const fetchData = async () => {
                 try {
-                    const response = await axios.get(`/api/petanis`);
+                    const response = await axios.get(`https://c-greenproject.org:8000/petanis`);
                     setUserData(response.data);
                 } catch (error) {
                     console.error("Error fetching data:", error);
@@ -61,7 +61,7 @@ const DataLahanPetani = () => {
         // Tampilkan dialog konfirmasi penghapusan
         if (window.confirm("Apakah Anda yakin ingin menghapus data ini?")) {
             try {
-                await axios.delete(`/api/petani/${id}`);
+                await axios.delete(`https://c-greenproject.org:8000/petani/${id}`);
                 // Filter out the deleted data from the userData state
                 const updatedUserData = userData.filter(data => data.id !== id);
                 setUserData(updatedUserData); // Set the state with the filtered data

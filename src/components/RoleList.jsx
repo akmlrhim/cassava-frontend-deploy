@@ -12,7 +12,7 @@ const RoleList = () => {
     if (user?.uuid) {
       const fetchData = async () => {
         try {
-          const response = await axios.get(`/api/users/${user.uuid}`);
+          const response = await axios.get(`https://c-greenproject.org:8000/users/${user.uuid}`);
           console.log(response.data);
           setUserData(response.data);
         } catch (error) {

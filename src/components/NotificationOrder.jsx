@@ -10,7 +10,7 @@ const NotificationOrder = () => {
         }, []);
 
     const getProducts = async () => {
-        const response = await axios.get("/api/products");
+        const response = await axios.get("https://c-greenproject.org:8000/products");
         setProducts(response.data);
     };
 

@@ -14,7 +14,7 @@ const FormEditProduct = () => {
     const getProductById = async () => {
       try {
         const response = await axios.get(
-          `/api/products/${id}`
+          `https://c-greenproject.org:8000/products/${id}`
         );
         setName(response.data.name);
         setPrice(response.data.price);
@@ -30,7 +30,7 @@ const FormEditProduct = () => {
   const updateProduct = async (e) => {
     e.preventDefault();
     try {
-      await axios.patch(`/api/products/${id}`, {
+      await axios.patch(`https://c-greenproject.org:8000/products/${id}`, {
         name: name,
         price: price,
       });

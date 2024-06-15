@@ -13,12 +13,12 @@ const ProductList = () => {
   }, []);
 
   const getProducts = async () => {
-    const response = await axios.get("/api/products");
+    const response = await axios.get("https://c-greenproject.org:8000/products");
     setProducts(response.data);
   };
 
   const deleteProduct = async (productId) => {
-    await axios.delete(`/api/products/${productId}`);
+    await axios.delete(`https://c-greenproject.org:8000/products/${productId}`);
     getProducts();
   };
 

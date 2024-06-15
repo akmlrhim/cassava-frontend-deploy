@@ -16,7 +16,7 @@ const EditRole = () => {
     useEffect(() => {
         const getUserById = async () => {
             try {
-                const response = await axios.get(`/api/users/${id}`);
+                const response = await axios.get(`https://c-greenproject.org:8000/users/${id}`);
                 setName(response.data.name);
                 setEmail(response.data.email);
                 setRole(response.data.role);
@@ -45,7 +45,7 @@ const EditRole = () => {
                 formData.append('foto', foto);
             }
 
-            await axios.patch(`/api/users/${id}`, formData, {
+            await axios.patch(`https://c-greenproject.org:8000/users/${id}`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
