@@ -2,10 +2,8 @@
   from = "/api/*"
   to = "https://c-greenproject.org:8000/api/:splat"
   status = 200
-  force = true
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-  force = true
