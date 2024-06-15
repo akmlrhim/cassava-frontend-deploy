@@ -19,7 +19,7 @@ const ListDataPabrik = () => {
     useEffect(() => {
         const fetchDataPabrik = async () => {
             try {
-                const response = await axios.get("https://c-greenproject.org:8000//pabrik");
+                const response = await axios.get("/api/pabrik");
                 setDataPabrik(response.data);
             } catch (error) {
                 console.error("Error fetching data:", error);
@@ -40,7 +40,7 @@ const ListDataPabrik = () => {
     const deleteDataPabrik = async (id) => {
         if (window.confirm("Apakah Anda yakin ingin menghapus data ini?")) {
             try {
-                await axios.delete(`https://c-greenproject.org:8000/pabrik/${id}`);
+                await axios.delete(`/api/pabrik/${id}`);
                 const updatedDataPabrik = dataPabrik.filter(item => item.id !== id);
                 setDataPabrik(updatedDataPabrik);
                 alert("Data berhasil dihapus.");

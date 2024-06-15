@@ -10,12 +10,12 @@ const Userlist = () => {
   }, []);
 
   const getUsers = async () => {
-    const response = await axios.get("https://c-greenproject.org:8000/users");
+    const response = await axios.get("/api/users");
     setUsers(response.data);
   };
 
   const deleteUser = async (userId) => {
-    await axios.delete(`https://c-greenproject.org:8000/users/${userId}`);
+    await axios.delete(`/api/users/${userId}`);
     getUsers();
   };
 

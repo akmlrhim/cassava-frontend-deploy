@@ -26,7 +26,7 @@ const ListDataPabrikEdit = () => {
     useEffect(() => {
         const fetchPabrikData = async () => {
             try {
-                const response = await axios.get(`https://c-greenproject.org:8000/pabrik/${id}`);
+                const response = await axios.get(`/api/pabrik/${id}`);
                 const data = response.data;
                 setTanggalPenerimaan(data.tanggalPenerimaan);
                 setBeratTotalDiterima(data.beratTotalDiterima.toString());
@@ -48,7 +48,7 @@ const ListDataPabrikEdit = () => {
     const updatePabrikData = async (e) => {
         e.preventDefault();
         try {
-            await axios.put(`https://c-greenproject.org:8000//pabrik/${id}`, {
+            await axios.put(`/api/pabrik/${id}`, {
                 tanggalPenerimaan,
                 beratTotalDiterima: parseInt(beratTotalDiterima),
                 evaluasiKualitas,
