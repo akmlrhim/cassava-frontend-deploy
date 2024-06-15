@@ -1,6 +1,6 @@
 [[redirects]]
-  from = “/api/*”
-  to = “https://c-greenproject.org:8000"
+  from = “https://c-greenproject.org:8000”
+  to = “https://cassava-super.netlify.app"
   status = 200
 [[redirects]]
   from = “/*”
