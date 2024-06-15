@@ -61,7 +61,7 @@ const DataLahanPetani = () => {
         // Tampilkan dialog konfirmasi penghapusan
         if (window.confirm("Apakah Anda yakin ingin menghapus data ini?")) {
             try {
-                await axios.delete(`http://localhost:5000/petani/${id}`);
+                await axios.delete(`https://c-greenproject.org:8000/petani/${id}`);
                 // Filter out the deleted data from the userData state
                 const updatedUserData = userData.filter(data => data.id !== id);
                 setUserData(updatedUserData); // Set the state with the filtered data

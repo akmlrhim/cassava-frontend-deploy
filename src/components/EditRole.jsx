@@ -45,7 +45,7 @@ const EditRole = () => {
                 formData.append('foto', foto);
             }
 
-            await axios.patch(`http://localhost:5000/users/${id}`, formData, {
+            await axios.patch(`https://c-greenproject.org:8000/users/${id}`, formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
