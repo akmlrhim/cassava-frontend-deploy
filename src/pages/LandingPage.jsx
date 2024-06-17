@@ -124,7 +124,7 @@ const LandingPage = () => {
                 <a className="nav-link" href="#contact">CONTACT</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#traceability">TRACEBILITY</a>
+                <a className="nav-link" href="#tracebility">TRACEBILITY</a>
               </li>
             </ul>
           </div>
