@@ -118,7 +118,7 @@ const LandingPage = () => {
                 <a className="nav-link" href="#stakeholder">STACKHOLDER</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#team">TEAM</a>
+                <a className="nav-link" href="#teams">TEAM</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#contact">CONTACT</a>
