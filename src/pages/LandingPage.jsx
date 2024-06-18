@@ -218,7 +218,7 @@ const LandingPage = () => {
             <h2 className="gradient-text">About Us</h2>
             <p>Cassava Super Apps adalah sebuah platfrom aplikasi yang memiliki fokus pada pengelolaan
               rantai pasok yang mencakup, pasokan umbi singkong, transportasi, pemrosesan utama dan lebih lanjut hingga menghasilkan
-              Crude Palm Oil (tepung tapioka) berbasis konsep Blockchain</p>
+             tepung tapioka berbasis konsep Blockchain</p>
           </div>
 
           <div className="row">
