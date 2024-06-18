@@ -162,7 +162,7 @@ const LandingPage = () => {
       <section id='services' className='featured-services justfify-content-center text-center'>
          <div className="section-title mt-5">
             <h2 className="gradient-text">We Are Provide Some Services</h2>
-            <p> TELSA (Traceability Sawit) Super Apps adalah sebuah platfrom aplikasi yang memiliki fokus pada pengelolaan
+            <p> Cassava Super Apps adalah sebuah platfrom aplikasi yang memiliki fokus pada pengelolaan
               rantai pasok yang mencakup, pasokan TBS, transportasi, pemrosesan utama dan lebih lanjut hingga menghasilkan
               Crude Palm Oil (CPO) berbasis konsep Blockchain</p>
           </div>
@@ -216,7 +216,7 @@ const LandingPage = () => {
       <section id="about" className="about">
           <div className="section-title">
             <h2 className="gradient-text">About Us</h2>
-            <p> TELSA (Traceability Sawit) Super Apps adalah sebuah platfrom aplikasi yang memiliki fokus pada pengelolaan
+            <p>Cassava Super Apps adalah sebuah platfrom aplikasi yang memiliki fokus pada pengelolaan
               rantai pasok yang mencakup, pasokan TBS, transportasi, pemrosesan utama dan lebih lanjut hingga menghasilkan
               Crude Palm Oil (CPO) berbasis konsep Blockchain</p>
           </div>
@@ -358,10 +358,10 @@ const LandingPage = () => {
           </div>
           <ul className="faq-list">
             <li>
-              <div data-bs-toggle="collapse" className="collapsed question" href="#faq1">Ingin menggunakan jasa telsa super apps untuk perusahaan anda? <i className="fa-solid fa-chevron-down icon-show"></i><i className="fa-solid fa-chevron-up icon-close"></i></div>
+              <div data-bs-toggle="collapse" className="collapsed question" href="#faq1">Ingin menggunakan jasa Cassava super apps untuk perusahaan anda? <i className="fa-solid fa-chevron-down icon-show"></i><i className="fa-solid fa-chevron-up icon-close"></i></div>
               <div id="faq1" className="collapse" data-bs-parent=".faq-list">
                 <p>
-                  hubungi kontak yang tersedia untuk menggunakan jasa telsa super apps untuk implementasi web apps pada perusahaan anda
+                  hubungi kontak yang tersedia untuk menggunakan jasa Cassava super apps untuk implementasi web apps pada perusahaan anda
                 </p>
               </div>
             </li>
@@ -369,7 +369,7 @@ const LandingPage = () => {
               <div data-bs-toggle="collapse" href="#faq2" className="collapsed question"> Cara tracing produk CPO? <i className="fa-solid fa-chevron-down icon-show"></i><i className="fa-solid fa-chevron-up icon-close"></i></div>
               <div id="faq2" className="collapse" data-bs-parent=".faq-list">
                 <p>
-                  Masukan kode CPO anda, kemudian akan muncul data traceability Crude Palm Oil anda
+                  Masukan kode CPO anda
                 </p>
               </div>
             </li>
